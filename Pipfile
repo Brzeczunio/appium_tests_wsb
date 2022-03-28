@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[scripts]
+mobile-native-us-android = "pytest --dc=us"
+mobile-native-eu-android = "pytest --dc=eu"
+
+[packages]
+pytest = "*"
+Appium-Python-Client = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
